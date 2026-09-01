@@ -3,62 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synne Kyrkjebø</title>
-    <link rel="stylesheet" href="style.css">
+    <title>EasyFisk – Praksisprosjekt</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f5;
+            color: #1f2d29;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        h1 {
+            color: #1f5c4a;
+            margin-bottom: 30px;
+        }
+
+        .oppgavebeskrivelse {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            line-height: 1.7;
+        }
+
+        .oppgavebeskrivelse h2 {
+            margin-top: 0;
+            color: #26735d;
+        }
+    </style>
 </head>
+
 <body>
+    <main>
+        <h1>EasyFisk – praksisprosjekt</h1>
 
-    <header>
-        <img src="synne.jpg" alt="Bilde av Synne" class="profile-image">
+        <section class="oppgavebeskrivelse">
+            <h2>Oppgavebeskrivelse</h2>
 
-        <h1>Synne Kyrkjebø</h1>
-        <p>IT- og informasjonssystemstudent ved Universitetet i Agder</p>
+            <p>
+                Jeg skal utvikle en mobiltilpasset prototype for EasyFisk i
+                samarbeid med Mandalselva Elveeigarlag. Målet er å gjøre det
+                enklere for fiskere å finne informasjon om fiskesoner og regler,
+                registrere fiskeøkter og rapportere fangst.
+            </p>
 
-        <a href="https://www.linkedin.com" target="_blank" class="button">
-            LinkedIn
-        </a>
-    </header>
-
-    <section class="about">
-        <h2>Om meg</h2>
-
-        <p>
-            Hei! Jeg heter Synne Kyrkjebø, er 22 år og kommer fra Sandefjord.
-            Jeg studerer IT og informasjonssystemer ved Universitetet i Agder og
-            skal begynne på mitt tredje studieår.
-        </p>
-
-        <p>
-            Det siste semesteret har jeg vært på utveksling ved East Tennessee
-            State University i USA, hvor jeg blant annet tok fag innen kunstig
-            intelligens og markedsføring.
-        </p>
-
-        <p>
-            Ved siden av studiene har jeg jobbet som studentmentor og
-            læringsassistent for førsteårsstudenter på IT- og
-            informasjonssystemer. Til sommeren skal jeg ha internship hos
-            Komplett som en del av et utviklingsteam.
-        </p>
-
-        <p>
-            På fritiden er jeg glad i å trene, spille og se på fotball, reise
-            og være ute i naturen.
-        </p>
-    </section>
-
-    <section class="video">
-        <h2>Presentasjonsvideo</h2>
-
-        <video controls width="700">
-            <source src="presentasjon.mp4" type="video/mp4">
-            Nettleseren støtter ikke video.
-        </video>
-    </section>
-
-    <footer>
-        <p>© 2026 Synne Kyrkjebø</p>
-    </footer>
-
+            <p>
+                Arbeidet vil hovedsakelig bestå av frontend-utvikling og design
+                av brukergrensesnitt. Jeg skal blant annet utforske
+                GPS-funksjonalitet for visning av fiskesoner, undersøke
+                muligheter for kobling mot Inatur og gjennomføre en enkel
+                brukertest. Løsningen skal utvikles som en responsiv
+                webapplikasjon, gjerne med PWA-funksjonalitet.
+            </p>
+        </section>
+    </main>
 </body>
 </html>
