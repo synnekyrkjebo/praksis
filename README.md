@@ -1,2 +1,2 @@
 # praksis
-Nettside for søknad til praksis
+Nettside for min praksis
