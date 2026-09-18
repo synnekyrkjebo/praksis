@@ -507,3 +507,4 @@ footer p {
         flex-direction: column;
     }
 }
+\n.video-section video {\n    display: block;\n    width: min(100%, 680px);\n    max-height: 720px;\n    margin: 25px auto 0;\n    background: #17200f;\n    border-radius: 18px;\n    box-shadow: 0 8px 24px rgba(36, 59, 13, 0.18);\n}\n
