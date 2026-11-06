@@ -253,12 +253,16 @@ body {
     text-transform: uppercase;
 }
 
+.hero .eyebrow {
+    margin-bottom: 20px;
+}
+
 .hero h1 {
-    margin: 0;
+    margin: 0 0 24px;
     color: var(--white);
     font-family: "Libre Baskerville", serif;
     font-size: clamp(55px, 8vw, 95px);
-    line-height: 1;
+    line-height: 1.15;
 }
 
 .hero-subtitle {
@@ -340,6 +344,20 @@ body {
     padding: 55px 60px;
     font-size: 19px;
     line-height: 1.8;
+}
+
+.description-video {
+    margin-top: 32px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: var(--dark-green);
+}
+
+.description-video iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
 }
 
 .description-text p {
